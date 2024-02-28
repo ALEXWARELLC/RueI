@@ -22,10 +22,10 @@
 
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
-      <HintPath>../References/Assembly-CSharp.dll</HintPath>
+      <HintPath>$(EXILED_REFERENCES)/Assembly-CSharp.dll</HintPath>
     </Reference>
 	  <Reference Include="PluginAPI">
-		  <HintPath>../References/PluginAPI.dll</HintPath>
+		  <HintPath>$(EXILED_REFERENCES)/PluginAPI.dll</HintPath>
 	  </Reference>
   </ItemGroup>
 
