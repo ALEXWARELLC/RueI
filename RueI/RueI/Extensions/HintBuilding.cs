@@ -137,14 +137,14 @@ public static class HintBuilding
     /// Adds a color tag to a <see cref="StringBuilder"/> from RGBA values.
     /// </summary>
     /// <param name="sb">The <see cref="StringBuilder"/> to use.</param>
+    /// <param name="alpha">The optional alpha (0-255) of the color.</param>
     /// <param name="r">The red (0-255) in the color.</param>
     /// <param name="g">The green (0-255) in the color.</param>
     /// <param name="b">The blue (0-255) in the color.</param>
-    /// <param name="alpha">The optional alpha (0-255) of the color.</param>
     /// <returns>A reference to the original <see cref="StringBuilder"/>.</returns>
     public static StringBuilder SetColor(this StringBuilder sb, int r, int g, int b, int alpha = 255)
     {
-        Color color = Color.FromArgb(r, g, b, alpha);
+        Color color = Color.FromArgb(alpha, r, g, b);
         return sb.SetColor(color);
     }
 
@@ -159,7 +159,7 @@ public static class HintBuilding
     /// <returns>A reference to the original <see cref="StringBuilder"/>.</returns>
     public static StringBuilder SetColor(this StringBuilder sb, byte r, byte g, byte b, byte alpha = 255)
     {
-        Color color = Color.FromArgb(r, g, b, alpha);
+        Color color = Color.FromArgb(alpha, r, g, b);
         return sb.SetColor(color);
     }
 
@@ -185,7 +185,7 @@ public static class HintBuilding
     /// <returns>A reference to the original <see cref="StringBuilder"/>.</returns>
     public static StringBuilder SetMark(this StringBuilder sb, int r, int g, int b, int alpha)
     {
-        Color color = Color.FromArgb(r, g, b, alpha);
+        Color color = Color.FromArgb(alpha, r, g, b);
         return sb.SetMark(color);
     }
 
@@ -200,7 +200,7 @@ public static class HintBuilding
     /// <returns>A reference to the original <see cref="StringBuilder"/>.</returns>
     public static StringBuilder SetMark(this StringBuilder sb, byte r, byte g, byte b, byte alpha)
     {
-        Color color = Color.FromArgb(r, g, b, alpha);
+        Color color = Color.FromArgb(alpha, r, g, b);
         return sb.SetMark(color);
     }
 
