@@ -167,4 +167,14 @@ public enum Roles
     /// Gets all of the SCP role ids, including SCP-049-2.
     /// </summary>
     Scps = ScpsNo0492 | Scp0492,
+
+    /// <summary>
+    /// Gets all of the dead role ids.
+    /// </summary>
+    Dead = Overwatch | Spectator | Filmmaker,
+
+    /// <summary>
+    /// Gets all role ids.
+    /// </summary>
+    All = Scps | Dead | CivilianRoles | MilitaryRoles,
 }
