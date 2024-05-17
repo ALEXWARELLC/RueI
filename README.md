@@ -1,5 +1,5 @@
 # RueI
-![Downloads](https://img.shields.io/github/downloads/Misfiy/EffectKeeper/total)<a href="https://github.com/misfiy/RueI/releases/latest" alt="Latest release">
+![Downloads](https://img.shields.io/github/downloads/Misfiy/RueI/total)<a href="https://github.com/misfiy/RueI/releases/latest" alt="Latest release">
 <img src="https://img.shields.io/github/v/release/misfiy/RueI"/></a>
 
 RueI is a hint framework, designed to be the definitive way to display multiple hints at once. you can get the latest release [here](https://github.com/Ruemena/RueI/releases/latest).
