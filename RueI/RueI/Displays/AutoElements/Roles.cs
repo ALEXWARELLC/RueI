@@ -176,5 +176,5 @@ public enum Roles
     /// <summary>
     /// Gets all role ids.
     /// </summary>
-    All = Scps | Dead | CivilianRoles | MilitaryRoles,
+    All = -1,
 }
