@@ -79,7 +79,6 @@ public class AutoElement
     public PeriodicUpdate? UpdateEvery
     {
         get => autoUpdate?.update;
-
         set
         {
             if (value != null)
@@ -99,6 +98,17 @@ public class AutoElement
     public virtual void Disable()
     {
         AutoElements.Remove(this);
+    }
+
+    /// <summary>
+    /// Re-enables this <see cref="AutoElement"/>
+    /// </summary>
+    public virtual void Enable()
+    {
+        if (!AutoElements.Contains(this))
+        {
+            AutoElements.Add(this);
+        }
     }
 
     /// <summary>
