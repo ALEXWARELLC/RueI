@@ -174,6 +174,11 @@ public enum Roles
     Dead = Overwatch | Spectator | Filmmaker,
 
     /// <summary>
+    /// Gets all of the role ids that are alive.
+    /// </summary>
+    Alive = HumanRoles | Scps,
+
+    /// <summary>
     /// Gets all role ids.
     /// </summary>
     All = -1,
