@@ -16,4 +16,4 @@ if you want to develop using RueI, make sure you install the [nuget package](htt
 
 RueI is not a grid-based or line-based system, it calculates the offset necessary to put a hint at the same position no matter what
 ## Comments
-if you've encountered any bugs please [make an issue](https://github.com/Ruemena/RueI/issues) (it helps me out a ton)
+if you've encountered any bugs please [make an issue](https://github.com/misfiy/RueI/issues) (it helps me out a ton)
